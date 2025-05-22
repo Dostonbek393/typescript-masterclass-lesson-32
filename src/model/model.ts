@@ -1,7 +1,7 @@
 import { DataResorce } from "../services/DataResorce";
 
 export interface PizzaModel {
-  id: number;
+  id?: number;
   title: string;
   price: number;
   description: string;
